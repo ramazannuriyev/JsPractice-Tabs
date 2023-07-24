@@ -1,0 +1,74 @@
+body {
+	background-color: #FBEAEB;
+}
+
+.tabs {
+	width: 40%;
+	margin: 0 auto;
+	border: 2px solid #2F3C7E;
+	border-top: none;
+	border-right: none;
+	background-color: white;
+	box-shadow: #2F3C7E 5px 5px, #2f3c7eba 10px 10px, #2f3c7e8a 15px 15px, #2f3c7e98 20px 20px, #2f3c7e7e 25px 25px;
+}
+
+.tabs-nav {
+	width: 77.4%;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+
+}
+
+@media screen and (max-width: 720px) {
+	.tabs-nav {
+		width: 68.1%;
+		display: flex;
+		justify-content: end;
+	}
+
+	.tabs-nav-btn {
+		width: 0px;
+	}
+}
+
+.tabs-nav-btn {
+	padding: 12px 30px;
+	font-size: 15px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-color: white;
+	color: #2F3C7E;
+	border: 0;
+	border-right: 2px solid #2F3C7E;
+	border-top: 2px solid #2F3C7E;
+	cursor: pointer;
+	transition: 0.4s all ease;
+}
+
+.tabs-body {
+	padding: 30px;
+	background-color: white;
+}
+
+.tabs-nav-btn:hover {
+	background-color: #2F3C7E;
+	color: #fff;
+}
+
+.tabs-nav-btn.active {
+	background-color: #2F3C7E;
+	color: white;
+}
+
+.tabs-text {
+	display: none;
+	color: #273163;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.tabs-text.active {
+	display: block;
+}

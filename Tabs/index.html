@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<title>Tabs</title>
+</head>
+
+<body>
+	<div class="tabs-nav " data-aos="flip-down" data-aos-easing="linear" data-aos-duration="800">
+		<button class="tabs-nav-btn active" type="button" data-tab="#html">HTML</button>
+		<button class="tabs-nav-btn" type="button" data-tab="#css">CSS</button>
+		<button class="tabs-nav-btn" type="button" data-tab="#js">JS</button>
+	</div>
+	<div class="tabs" data-aos="flip-up" data-aos-easing="linear" data-aos-duration="800">
+		<div class=" tabs-body">
+			<div class="tabs-text active" id="html">
+				<p>HTML stands for HyperText Markup Language. It is a standard markup language for web page creation. It
+					allows the creation and structure of sections, paragraphs, and links using HTML elements (the
+					building
+					blocks of a web page) such as tags and attributes. </p>
+			</div>
+			<div class="tabs-text" id="css">
+				<p>
+					CSS was developed by W3C (World Wide Web Consortium) in 1996 for a rather simple reason. HTML
+					element
+					was not designed to have tags that would help format the page. You were only supposed to write the
+					markup for the web page.</p>
+			</div>
+			<div class="tabs-text" id="js">
+				<p>JavaScript is a lightweight programming language that web developers commonly use to create more
+					dynamic
+					interactions when developing web pages, applications, servers, and or even games.</p>
+			</div>
+		</div>
+	</div>
+
+
+
+	
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	<script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
